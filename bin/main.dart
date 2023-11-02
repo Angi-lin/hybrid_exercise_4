@@ -16,10 +16,7 @@ void main() async {
       //   return '${item["first_name"] + " " + item["last_name"]} ${item["uid"]} \n';
       // }).join('');
       // print(extractedList);
-      // List<Map<String, String>> listOfMaps =
-      //     List<Map<String, String>>.from(jsonResponse.map((item) {
-      //   return Map<String, String>.from(item);
-      // }));
+
     } else {
       throw 'Request failed with status: ${response.statusCode}.';
     }
